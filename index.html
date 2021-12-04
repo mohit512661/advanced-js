@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" ></link>
+  </head>
+  <body>
+    <ul>
+      <li class="sub1">
+        Whenever javascript code is run, a global execution context is created.
+      </li>
+      <li class="sub1">
+        You can refer to "this" or "window" keyword to see what global execution
+        context offers.
+      </li>
+      <li class="sub1">
+        Execution context happens in two phases
+        <ul>
+          <li class="sub2">
+            MEMORY CREATION PHASE - javascript engine skims through the script
+            and store variables and functions in its memory, so variables are
+            stored in memory and are assigned a special placeholder called
+            undefined whereas in case of functions, complete function is stored.
+            - this phenomena is called hoisting in javascript.
+          </li>
+          <li class="sub2">
+            EXECUTION PHASE - javascript now starts to run the code line by line
+            and starts to assign values as it encounters one.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <script src="index.js"></script>
+  </body>
+</html>

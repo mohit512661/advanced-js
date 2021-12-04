@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+
+.sub1 {
+  color: turquoise;
+}
+
+.sub2 {
+  color: tan;
+}
+
+li {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 30px;
+  font-weight: 700;
+}
